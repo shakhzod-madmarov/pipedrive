@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pipedrive CRM</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <aside class="aside">
+      <nav class="navAside">
+        <a href="#" class="logo">P</a>
+        <ul class="navAsideList">
+          <li class="navAsideItem">
+            <a href="#" class="navAsideLink"
+              ><i style="font-size: 24px" class="fa">&#xf05b;</i></a
+            >
+          </li>
+          <li class="navAsideItem">
+            <a href="#" class="navAsideLink"
+              ><i style="font-size: 24px" class="fa">&#xf155;</i></a
+            >
+          </li>
+          <li class="navAsideItem">
+            <a href="#" class="navAsideLink"
+              ><i style="font-size: 24px" class="fa">&#xf274;</i></a
+            >
+          </li>
+          <li class="navAsideItem">
+            <a href="#" class="navAsideLink"
+              ><i style="font-size: 24px" class="fa">&#xf0a1;</i></a
+            >
+          </li>
+          <li class="navAsideItem">
+            <a href="#" class="navAsideLink"
+              ><i style="font-size: 24px" class="fa">&#xf003;</i></a
+            >
+          </li>
+          <li class="navAsideItem">
+            <a href="#" class="navAsideLink"
+              ><i style="font-size: 24px" class="fa">&#xf273;</i></a
+            >
+          </li>
+          <li class="navAsideItem">
+            <a href="#" class="navAsideLink"
+              ><i style="font-size: 24px" class="fa">&#xf2bc;</i></a
+            >
+          </li>
+          <li class="navAsideItem">
+            <a href="#" class="navAsideLink"
+              ><i style="font-size: 24px" class="fa">&#xf201;</i></a
+            >
+          </li>
+          <li class="navAsideItem">
+            <a href="#" class="navAsideLink"
+              ><i style="font-size: 24px" class="fa">&#xf187;</i></a
+            >
+          </li>
+          <li class="navAsideItem">
+            <a href="#" class="navAsideLink"
+              ><i style="font-size: 24px" class="fa">&#xf19c;</i>
+            </a>
+          </li>
+          <li class="navAsideItem">
+            <button class="navAsideBtn">. . .</button>
+            <ul class="otherList" style="display: none">
+              <li class="otherItem"><a href="#"></a></li>
+              <li class="otherItem"><a href="#"></a></li>
+              <li class="otherItem"><a href="#"></a></li>
+              <li class="otherItem"><a href="#"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main">
+      <header class="headerMain">
+        <nav class="headerNav">
+          <ul class="headerNavList">
+            <li class="headerNavItem">Cделки</li>
+            <li class="headerNavItem">
+              <label for="search" class="searchLabel">
+                <i style="font-size: 24px" class="fa">&#xf002;</i
+                ><input
+                  type="text"
+                  name="search"
+                  id="search"
+                  class="searchInput"
+                />
+              </label>
+              <button type="button" class="searchBtn">+</button>
+            </li>
+            <li class="headerNavItem">
+              <ul class="navHelperList">
+                <li class="navHelperItem">
+                  <a href="#"
+                    ><i style="font-size: 24px" class="fa">&#xf0ea;</i></a
+                  >
+                </li>
+                <li class="navHelperItem"><a href="#">?</a></li>
+                <li class="navHelperItem">
+                  <a href="#"
+                    ><i style="font-size: 24px" class="fa">&#xf2be;</i></a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="deal">
+        <div class="dealInfo">
+          <h1>Test deal</h1>
+          <div class="dealProgress">
+            <div class="user">
+              <img src="#" alt="profile" class="userImg" />
+              <div class="userInfo">
+                <p class="userName">Test Name</p>
+                <span class="userPosition">Test position</span>
+              </div>
+            </div>
+            <form action="scripts.js">
+              <label for="follower">Choose a follower:</label>
+              <select name="follower" id="follower">
+                <option value="1 follower">1 follower</option>
+                <option value="2 follower">2 follower</option>
+                <option value="3 follower">3 follower</option>
+                <option value="4 follower">4 follower</option>
+              </select>
+            </form>
+            <button class="wonBtn">Won</button>
+            <button class="lostBtn">Lost</button>
+            <form action="scripts.js">
+              <label for="layout">Choose a layout:</label>
+              <select name="layout" id="layout">
+                <option value="1 layout">Item owner</option>
+                <option value="2 layout">Item owner's visibility group</option>
+                <option value="3 layout">
+                  Item owner's visibility group and sub-groups
+                </option>
+                <option value="3 layout">All users</option>
+              </select>
+            </form>
+            <button class="dealInfoOthers">...</button>
+          </div>
+        </div>
+        <ul class="daysList">
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+          <li class="daysItem">
+            <button class="daysBtn" type="button">0 days</button>
+          </li>
+        </ul>
+        <div class="links">
+          <a href="#">Tampa</a>
+          <i style="font-size: 24px" class="fa">&#xf178;</i>
+          <a href="#">New lead</a>
+        </div>
+      </section>
+      <section class="panel">
+        <div class="leftPanel">
+          <div class="notificationPanel">
+            <p>Is this panel useful?</p>
+            <button class="likeBtn" type="button">
+              <i style="font-size: 24px" class="fa">&#xf087;</i>
+            </button>
+            <button class="dislikeBtn" type="button">
+              <i style="font-size: 24px" class="fa">&#xf088;</i>
+            </button>
+            <button class="closeNotificationBtn" type="button">X</button>
+          </div>
+          <div class="summary">
+            <div><i style="font-size: 24px" class="fa">&#xf107;</i> test</div>
+            <div>
+              <i style="font-size:24px" class="fa">&#xf01e;</i>
+              
+            </div>
+          </div>
+        </div>
+        <div class="rightPanel"></div>
+      </section>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
